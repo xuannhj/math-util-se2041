@@ -1,5 +1,4 @@
 package com.xuannhi.mathutil.core;
-
 import com.xuannhi.mathutil.core.MathUtil;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,11 +9,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class MathUtilDTTest {
     //chuan bi bo data
     //ham tra ve mang 2 chieu
+    //DDT: Data Driven Tesing
     public static Object[][] initTestData(){
         Object[][] testData = {
                 {0, 1L},
                 {1, 1L},
                 {2, 2L},
+                
                 {5, 120L},
                 {6, 720L}
         }; //[5][2]
