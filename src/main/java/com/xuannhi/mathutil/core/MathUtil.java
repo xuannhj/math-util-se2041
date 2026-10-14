@@ -1,0 +1,21 @@
+package com.xuannhi.mathutil.core;
+
+public class MathUtil {
+    public static long getFactorial(int n) {
+        //thuat toan tinh n! giai thua = 1.2.3....n, n from 0...20
+        if (n < 0 || n > 20){
+            throw new IllegalArgumentException("invalid param. n must be between 0 and 20");
+        }
+        //argument exception???
+        if (n == 0){
+            return 1; //n = 0 return ngay
+        }
+
+        //sure n from 1..20
+        long result = 1; //khoi dau giai thua = 1, nhân dồn
+        for (int i = 1; i <= n; i++){
+            result *= i;
+        }
+        return result;
+    }
+}
