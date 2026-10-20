@@ -12,7 +12,8 @@ public class MathUtil {
         }
 
         //sure n from 1..20
-        long result = 10;//code cố tình tạo bug: nhân thêm 10 để xem red-alert
+        long result = 1; //sửa lại source thành 1 để mlem trở lại, green 4 ever
+        //10;//code cố tình tạo bug: nhân thêm 10 để xem red-alert
 
 
         //khoi dau giai thua = 1, nhân dồn
