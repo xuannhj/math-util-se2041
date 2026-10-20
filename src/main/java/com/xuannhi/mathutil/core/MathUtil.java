@@ -12,7 +12,10 @@ public class MathUtil {
         }
 
         //sure n from 1..20
-        long result = 1; //khoi dau giai thua = 1, nhân dồn
+        long result = 10;//code cố tình tạo bug: nhân thêm 10 để xem red-alert
+
+
+        //khoi dau giai thua = 1, nhân dồn
         for (int i = 1; i <= n; i++){
             result *= i;
         }
